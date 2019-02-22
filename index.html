@@ -6,59 +6,57 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,800" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <nav>
-      <img src="img/logo" alt="logo">
-      <ul class="menu">
-        <li>
-          Intro
-        </li>
-        <li>
-          Features
-        </li>
-        <li>
-          Contact
-        </li>
+    <nav class="nav-bar">
+      <img src="pictures/image1"/>
+      <ul class="nav-list">
+        <li><a href="#intro-section">About Us</a></li>
+        <li><a href="#features-section">Features</a></li>
+        <li><a href="#contact-section">Contact Us</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section>
-      <div>
-        <h1>TITULAR</h1>
-        <p>Hola qué tal</p>
-        <button>cta</button>
+    <section id="intro-section" class="container-row">
+      <div class="container-row">
+        <div class="intro-text">
+          <h1>TITULAR</h1>
+          <p>Hola qué tal</p>
+          <button>cta</button>
+        </div>
+        <img src="pictures/image1.png" alt="imagen hero">
       </div>
-      <img src="imagen hero" alt="imagen hero">
+      
     </section>
 
-    <section>
-      <article>
-        <img src="" alt="">
+    <section id="features-section" class="container-row" >
+      <article class="feature"> 
+        <img src="pictures/image1.png" alt="">
         <h4>feature 1</h4>
         <p>texto feature</p>
       </article>
 
-      <article>
-        <img src="" alt="">
+      <article class="feature">
+        <img src="pictures/image1.png" alt="">
         <h4>feature 1</h4>
         <p>texto feature</p>
       </article>
 
-      <article>
-        <img src="" alt="">
+      <article class="feature">
+        <img src="pictures/image1.png" alt="">
         <h4>feature 1</h4>
         <p>texto feature</p>
       </article>
 
     </section>
 
-    <section>
+    <section id="contact-section" class="container">
 
-      <form action="">
+      <form action="" class="container">
 
         <label for="name">Name</label>
         <input id="name" type="text" placeholder="nombre">
@@ -79,10 +77,10 @@
         </select>
 
         <label for="comment">Comment</label>
-        <textarea id="comment" name="" placeholder="Enter your comments here" id="" cols="30" rows="10">
+        <textarea id="comment" name="" placeholder="Enter your comments here" cols="30" rows="10">
         </textarea>
 
-        <button type="submit">
+        <button type="submit" class="button-submit">
           Send it safetely
         </button>
 
@@ -91,8 +89,8 @@
 
   </main>
 
-  <footer>
-    <ul>
+  <footer class="container">
+    <ul class="container-row">  
       <li><img src="" alt=""></li>
       <li><img src="" alt=""></li>
       <li><img src="" alt=""></li>
